@@ -1,39 +1,6 @@
-// let to= document.querySelector(".to")
-// let list=document.querySelector(".list")
-        // to.addEventListener("keyup",(e)=>{
-        //         if(e.key=="Enter"){
-        //             addItem(this.value)
-        //             this.value=""
-        //         }
-        // })
 
-        // let addItem=(to) =>{
-        //         let listItem =document.createElement("li")
-        //         listItem.innerHTML="${}"
-        //         list.appendChild(listItem)
-        // }
-
-// 
-// dlt.addEventListener("click",(e)=>{
-
-// })
-// submit.addEventListener("click",(e)=>{
-//         e.preventDefault()
-//         let toc=to.value;
-//         console.log(toc)
-//         localStorage.setItem("list",JSON.stringify([toc]))
       
-//         list.innerHTML=`<p>${toc}</p>`
-//         list.style.color="white"
-//         to.value=""
-       
-// })
-// deleteBtn.addEventListener("click",(e)=>{
-//         e.preventDefault()
-//         localStorage.removeItem("list")
-//         // console.log(e)
-//         list.innerHTML=""
-// })
+
 let todoList=[{item:'code',dueDate:'25/11/2023'},
                {item: 'trade',dueDate:'25/11/2023',}];
 display()
@@ -67,17 +34,5 @@ function display(){
                 contElem.innerHTML=newHtml;
         }
 }
-// let arr=[];
-// function func(){
-//         let value=input.value;
-//        arr=[...arr,value];
-      
-// let temp='';
-//        console.log(arr)
-//        arr.map((elem)=>{
-//         temp+=`<p>${elem}</p>`
-//        })
-//       div.innerHTML=temp;
-//      }
 
-//      button.addEventListener("click",func)
+
